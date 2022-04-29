@@ -18,6 +18,7 @@ export class AddTodo extends Component {
         return (
             <form onSubmit={this.onSubmit}>
                 <input
+                    className="todo-input"
                     type="text"
                     name="title"
                     placeholder="Add todo ..."

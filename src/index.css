@@ -1,4 +1,8 @@
-* {margin: 0; padding: 0; box-sizing: border-box;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -12,4 +16,69 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header {
+  margin: 1rem auto 0 auto;
+  padding: 1rem 0;
+  background-color: #333;
+  width: 30rem;
+  color: #fff;
+  text-align: center;
+
+}
+
+.todos {
+  margin: 0 auto;
+  max-width: 30rem;
+}
+
+
+.todo-input {
+  margin: 10px 16px 10px 5px;
+  max-width: 15rem;
+  padding: .4rem;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: .45rem 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-checkbox {
+  margin: 0 5px;
+}
+
+button {
+  max-height: 2rem;
+  display: inline-block;
+  border: none;
+  background: #b32323;
+  color: #fff;
+  padding: .6rem .6rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #fd0404;
+}
+
+.btn:hover {
+  background: #666;
 }
