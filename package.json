@@ -2,7 +2,6 @@
   "name": "React_class_based_to_do_App",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dev-kani.github.io/react-class-based-to-do-app",
   "dependencies": {
     "axios": "^0.18.1",
     "react": "^16.7.0",
@@ -15,9 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
